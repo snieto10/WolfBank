@@ -16,6 +16,8 @@ html {
     align-items: center;
 }
 
+
+
 /*Icons*/
 
 .icon {
@@ -26,6 +28,11 @@ html {
     padding-left: 0.8rem;
     padding-top: 0.5rem;
 }
+
+.icon--menu-search {
+    display: none;
+}
+
 
 /*Images*/
 
@@ -57,6 +64,16 @@ html {
     border-radius: 10px;
     color: white;
     margin-right: 0.8rem;
+    border: 0;
+}
+
+.container--signin {
+    display: inline-flex;
+    margin-right: 0.8rem;
+}
+
+.icon--menu-search {
+    display: block;
 }
 }
     
