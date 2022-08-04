@@ -2,14 +2,18 @@ html {
     font-size: 62.5%;
 }
 
+/*Containers*/
+
 .container-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/*Icons*/
+
 .icon {
-    width: 40px;
+    width: 30px;
 }
 
 .icon--menu-mobile {
@@ -17,10 +21,14 @@ html {
     padding-top: 0.5rem;
 }
 
+/*Images*/
+
 .image-logo  {
     width: 200px;
     padding-top: 0.5rem;
 }
+
+/*Typography*/
 
 .font--signOn {
     font-size: 1.2rem;
@@ -28,4 +36,6 @@ html {
     font-weight: bold;
     padding-right: 0.8rem;
     padding-top: 0.5rem;
+    white-space: nowrap;
+    letter-spacing: 1px;
 }
