@@ -49,3 +49,14 @@ html {
     white-space: nowrap;
     letter-spacing: 1px;
 }
+
+@media screen and (min-width:768px) {
+.font--signOn {
+    background: #0812a0;
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    margin-right: 0.8rem;
+}
+}
+    
