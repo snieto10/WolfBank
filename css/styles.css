@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 *,
@@ -14,6 +15,45 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.container--header-top {
+    display:none;
+    justify-content: space-between; 
+    
+}
+
+.container--header-bottom {
+
+}
+
+/*Lists*/
+
+.top--header--left {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top--header--left > li {
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+
+ 
+
+
+/*Links*/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.top--header--Personal {
+    border-bottom: 3px solid #0812a0;
+    font-weight: bold;
 }
 
 
@@ -55,6 +95,7 @@ html {
     padding-top: 0.5rem;
     white-space: nowrap;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
 @media screen and (min-width:768px) {
@@ -74,6 +115,26 @@ html {
 
 .icon--menu-search {
     display: block;
+    cursor: pointer;
 }
 }
+
+@media screen and (min-width:990px) {
+    .container--header-top {
+        display: flex;
+}
+    .container--header {
+        justify-content: left;
+    }  
+
+    .container--signin {
+        display: none;
+    }
+
+    .icon--menu-mobile {
+        display: none;
+    }
+
     
+
+}
