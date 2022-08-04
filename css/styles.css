@@ -1,0 +1,31 @@
+html {
+    font-size: 62.5%;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    width: 40px;
+}
+
+.icon--menu-mobile {
+    padding-left: 0.8rem;
+    padding-top: 0.5rem;
+}
+
+.image-logo  {
+    width: 200px;
+    padding-top: 0.5rem;
+}
+
+.font--signOn {
+    font-size: 1.2rem;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    padding-right: 0.8rem;
+    padding-top: 0.5rem;
+}
