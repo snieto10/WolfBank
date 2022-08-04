@@ -2,9 +2,15 @@ html {
     font-size: 62.5%;
 }
 
+*,
+* ::before,
+* ::after {
+    box-sizing: border-box;
+}
+
 /*Containers*/
 
-.container-header {
+.container--header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,12 +29,16 @@ html {
 
 /*Images*/
 
-.image-logo  {
+.image--header  {
     width: 200px;
     padding-top: 0.5rem;
 }
 
 /*Typography*/
+
+.font {
+    font-family: 'Open Sans', sans-serif; 
+}
 
 .font--signOn {
     font-size: 1.2rem;
