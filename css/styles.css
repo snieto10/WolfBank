@@ -156,3 +156,48 @@ a {
 }
 
 /* -- Body --*/
+
+.body1 {
+    height: 260px;
+    background-image: url(../images/white-background.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.section--body1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.body1__cards {
+    width: 100%;
+}
+
+.body1--image {
+    max-width: 180px;
+    align-self: center;
+    margin-right: 5px;
+}
+
+.body1--header {
+    max-width: 180px;
+    text-align: justify;
+    font-weight: bolder;
+    margin-top: 28px;
+    margin-left: 5px;
+}
+
+.body1__button {
+    padding: 0.8rem 4rem;
+    color: white;
+    border-radius: 10px;
+    background: #0812a0;
+    border: 0;
+    position: relative;
+    top: 2rem;
+    left: 6rem;
+}
