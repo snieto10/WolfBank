@@ -201,3 +201,27 @@ a {
     top: 2rem;
     left: 6rem;
 }
+
+@media screen and (min-width:990px) {
+    .section--body1 {
+        justify-content: flex-start;
+        width: 50%;
+    }
+
+
+    .loginSide {
+        border: 3px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loginBox {
+        width: 220px;
+        height: 220px;
+        border: 1px  solid gray;
+        align-self: center;
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+    }
+}
