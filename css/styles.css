@@ -23,11 +23,12 @@ html {
     
 }
 
-.container--header-bottom {
-
+.house {
+    background: black;
 }
 
-/*Lists*/
+
+/*Lists or noLists*/
 
 .top--header--left {
     list-style: none;
