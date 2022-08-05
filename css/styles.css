@@ -27,6 +27,11 @@ html {
     background: black;
 }
 
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 /*Lists master changed*/
 
 .top--header--left {
@@ -37,9 +42,17 @@ html {
 
 .top--header--left > li {
     display: inline-block;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin: 1rem;
 }
+
+.header3 {
+    font-size: 1.4rem;
+    font-weight:lighter;
+    padding: 0 1rem;
+    display: none;
+}
+
 
  
 
@@ -54,6 +67,7 @@ a {
 .top--header--Personal {
     border-bottom: 3px solid #0812a0;
     font-weight: bold;
+    font-size: 1.6rem;
 }
 
 
@@ -135,6 +149,10 @@ a {
         display: none;
     }
 
-    
+    .header3 {
+        display:flex
+    }  
 
 }
+
+/* Body */
