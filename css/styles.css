@@ -13,6 +13,14 @@ html {
     box-sizing: border-box;
 }
 
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 
 /*Typography*/
@@ -43,12 +51,13 @@ body {
 }
 
 .btn__header {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.4rem;
     white-space: nowrap;
     font-weight: bold;
 }
+
 
 @media screen and (min-width:768px) {
     .btn__header {
@@ -56,6 +65,7 @@ body {
         background-color: #163764;
         padding: 0.5rem 2rem;
     }
+
 }
 
 /*Header*/
@@ -75,11 +85,59 @@ body {
     align-items: center;
 }
 
+.header__first {
+    display: none;
+}
+
+.header__third {
+    display: none;
+}
+
+@media screen and (min-width:990px){
+    .header__signin {
+        display: none;
+    }
+
+    .header__second-line {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 1rem;
+        font-weight: normal;
+        flex-wrap: nowrap;
+    }
+
+    .header__first {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin-left: 1rem;
+        max-height: 50px;
+        align-items: center;
+    }
+    
+    .header__third {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin-left: 1rem;
+        max-height: 50px;
+        align-items: center;
+    }
+
+}
+
 
 /*Icons*/
 
 .icon__header {
     width: 35px;
+}
+
+@media screen and (min-width:990px){
+    .icon__header {
+        display: none;
+    }
 }
 
 /*Images*/
@@ -100,4 +158,57 @@ body {
         padding-left: 0.5rem;
     }
 }
+
+/*Lists*/
+
+.list__header-first-left {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0.5rem 2rem 0.5rem 0rem;
+    font-size: 1.6rem;
+    
+}
+
+.list__header-first-second {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0rem 2rem 0.5rem 0.5rem;
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+
+.list--underline {
+    border-bottom: 3px solid rgb(74, 74, 253);
+}
+
+.list__header-third-left {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0.5rem 0 0.5rem 0rem;
+    margin-right: 2rem;
+    font-size: 1.6rem;
+    border-bottom: 3px solid white;
+}
+
+.list__header-third-left:hover {
+    border-bottom: 3px solid rgb(74, 74, 253);
+}
+
+/* Links */
+
+ a:visited {
+    color: black;
+}
+
+.btn__header:visited {
+    color: black;
+}
+
+@media screen and (min-width: 768px){
+    .btn__header:visited {
+        color: white;
+    }
+}
+
+
 
