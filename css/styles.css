@@ -44,11 +44,18 @@ body {
     text-decoration: none;
     display: inline-block;
     border-radius: 3px;
+    text-align: center;
 }
 
 .btn--blue {
     color: white;
     background: var(--color-primary);
+}
+
+.btn--small {
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    font-weight: bold;
 }
 
 .btn--stretch {
@@ -209,6 +216,10 @@ body {
     color: black;
 }
 
+.btn:visited {
+    color: white;
+}
+
 @media screen and (min-width: 768px){
     .btn__header:visited {
         color: white;
@@ -216,4 +227,146 @@ body {
 }
 
 
+/*Top Sign*/
 
+.topsign {
+    border: 3px solid red;
+    background-image: url(../images/white-background.jpg) ;
+    background-size: cover;
+    height: 210px;
+    position: relative;
+}
+
+.topsign__container {
+    border: 3px solid green ;
+    height: 200px;
+    max-width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+}
+
+.topsign__holder {
+    border: 3px solid black;
+    display: flex;
+    margin-left: 10%;
+}
+
+.topsign__imagebox {
+    border: 3px solid yellow;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topsign__message {
+    border: 3px solid purple;
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    margin-left: 5px;
+}
+
+.topsign__image {
+    width: 100%;
+}
+
+.topsign__title {
+    font-size: 1rem;
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+
+.topsign__text {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.topsign__text p {
+    margin-bottom: 15px
+}
+
+.topsign__text p {
+    margin-top: 0;
+}
+
+
+@media screen and (min-width:480px){
+    .topsign__imagebox {
+        width: 180px;
+    }
+    .topsign {
+        
+        height: 280px;
+        position: relative;
+    }
+    .topsign__container {
+        margin-top: 30px;
+    }
+
+    .topsign__message {
+        border: 3px solid purple;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        justify-content: flex-start;
+
+    }
+    .topsign__title {
+        font-size: 1.4rem;
+    }
+
+    .topsign__text {
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+
+    .topsign__title h2 {
+        margin-top: 0;
+    }
+
+    .topsign__title {
+        margin-top: 7px;
+    }
+}
+@media screen and (min-width:768px){
+    
+    .topsign__imagebox {
+        width: 220px;
+    }
+    .topsign {
+        height: 320px;
+        position: relative;
+    }
+    .topsign__container {
+        margin-top: 30px;
+        height: 240px;
+    }
+
+    .topsign__message {
+        border: 3px solid purple;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        justify-content: flex-start;
+
+    }
+    .topsign__title {
+        font-size: 1.8rem;
+    }
+
+    .topsign__text {
+        font-size: 1.6rem;
+        margin-top: 0;
+    }
+
+    .topsign__title h2 {
+        margin-top: 0;
+    }
+
+    .topsign__title {
+        margin-top: 7px;
+    }
+}
