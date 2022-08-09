@@ -1,3 +1,7 @@
+:root {
+    --color-primary: #163764
+}
+
 html {
     font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
@@ -9,8 +13,13 @@ html {
     box-sizing: border-box;
 }
 
+
+
+/*Typography*/
+
 body {
-    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
 }
 
 /* Buttons */
@@ -22,19 +31,73 @@ body {
     text-decoration: none;
     display: inline-block;
     border-radius: 3px;
-    padding: 0.5rem 4rem;
 }
 
 .btn--blue {
     color: white;
-    background: #163764;
+    background: var(--color-primary);
 }
 
 .btn--stretch {
     width: 100%;
 }
 
+.btn__header {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+@media screen and (min-width:768px) {
+    .btn__header {
+        color: white;
+        background-color: #163764;
+        padding: 0.5rem 2rem;
+    }
+}
+
 /*Header*/
 
+.header__second-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    font-weight: normal;
+    flex-wrap: nowrap;
+}
 
+.header__signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Icons*/
+
+.icon__header {
+    width: 35px;
+}
+
+/*Images*/
+
+.images__header-logo {
+    width: 200px;
+}
+
+.images__header-search{
+    display: none;
+    padding: 0 0;
+}
+
+@media screen and (min-width:768px) {
+    .images__header-search{
+        display: block;
+        width: 20px;
+        padding-left: 0.5rem;
+    }
+}
 
