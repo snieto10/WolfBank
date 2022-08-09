@@ -374,15 +374,18 @@ body {
         margin-top: 7px;
     }
 
-    .topsign__login {
-        display: block;
-        border: 3px solid blue;
-        width: 280px;
-        max-width: 280px;
-        min-width: 280;
-        margin: 0 auto;
-        border-radius: 10px;
-        background: white;
+}
 
-    }
+@media screen and (min-width:990px){
+.topsign__login {
+    display: block;
+    border: 3px solid blue;
+    width: 280px;
+    max-width: 280px;
+    min-width: 280;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: white;
+
+}
 }
