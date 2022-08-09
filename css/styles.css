@@ -9,132 +9,32 @@ html {
     box-sizing: border-box;
 }
 
-/*Containers*/
-
-.container--header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+body {
+    margin: 10px;
 }
 
-.container--header-top {
-    display:none;
-    justify-content: space-between; 
-    
-}
+/* Buttons */
 
-.house {
-    background: black;
-}
-
-/*Lists master changed*/
-
-.top--header--left {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.top--header--left > li {
-    display: inline-block;
+.btn {
     font-size: 1.6rem;
-    margin: 1rem;
-}
-
- 
-
-
-/*Links*/
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.top--header--Personal {
-    border-bottom: 3px solid #0812a0;
-    font-weight: bold;
-}
-
-
-
-/*Icons*/
-
-.icon {
-    width: 30px;
-}
-
-.icon--menu-mobile {
-    padding-left: 0.8rem;
-    padding-top: 0.5rem;
-}
-
-.icon--menu-search {
-    display: none;
-}
-
-
-/*Images*/
-
-.image--header  {
-    width: 200px;
-    padding-top: 0.5rem;
-}
-
-/*Typography*/
-
-.font {
-    font-family: 'Open Sans', sans-serif; 
-}
-
-.font--signOn {
-    font-size: 1.2rem;
-    font-family:'Open Sans', sans-serif;
-    font-weight: bold;
-    padding-right: 0.8rem;
-    padding-top: 0.5rem;
-    white-space: nowrap;
-    letter-spacing: 1px;
-    text-decoration: none;
-}
-
-@media screen and (min-width:768px) {
-.font--signOn {
-    background: #0812a0;
-    padding: 1rem;
-    border-radius: 10px;
-    color: white;
-    margin-right: 0.8rem;
-    border: 0;
-}
-
-.container--signin {
-    display: inline-flex;
-    margin-right: 0.8rem;
-}
-
-.icon--menu-search {
-    display: block;
+    border: none;
     cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 0.5rem 4rem;
 }
+
+.btn--blue {
+    color: white;
+    background: #163764;
 }
 
-@media screen and (min-width:990px) {
-    .container--header-top {
-        display: flex;
+.btn--stretch {
+    width: 100%;
 }
-    .container--header {
-        justify-content: left;
-    }  
 
-    .container--signin {
-        display: none;
-    }
+/*Header*/
 
-    .icon--menu-mobile {
-        display: none;
-    }
 
-    
 
-}
