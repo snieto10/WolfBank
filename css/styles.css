@@ -21,6 +21,11 @@ a {
     text-decoration: none;
 }
 
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 
 
 /*Typography*/
@@ -184,7 +189,7 @@ body {
 .list__header-third-left {
     display: inline-flex;
     list-style-type: none;
-    padding: 0.5rem 0 0.5rem 0rem;
+    padding: 0.5rem 0 0rem 0rem;
     margin-right: 2rem;
     font-size: 1.6rem;
     border-bottom: 3px solid white;
