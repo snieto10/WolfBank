@@ -392,7 +392,7 @@ body {
     font-size: 1.6;
     font-weight: normal;
     opacity: 0.8;
-    margin: 0.5rem 1rem 0rem 1rem;
+    margin: 0.5rem 1rem 2.5rem 1rem;
 }
 .topsign__login > h3 {
     font-weight: normal;
@@ -442,10 +442,9 @@ body {
 
 .rememberme {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    margin-left: 1rem;
-    opacity: 0.8;
+    font-size: 1.2rem;
+    margin-left: 5%;
 }
 
 input.largerCheckbox {
@@ -463,6 +462,43 @@ input.largerCheckbox {
     top:50px
 }
 
+form.log {
+    position:relative;
+}
+
+input.log {
+    border: none;
+    border-bottom: 2px solid black;
+    opacity: 0.2;
+    background-color: unset;
+    outline: none;
+    font-size: 2rem;
+    color: black;
+    width:90%;
+    margin: 0 5% 25px 5%;
+}
+
+input.log:focus {
+    border-bottom: 2px solid rgb(74, 74, 253);
+    opacity: 0.8;
+}
+
+label.log {
+    position: absolute;
+    left: 25px;
+    color: black;
+    transition: transform 0.2s ease-in-out;
+}
+
+input.log:focus + label, input.log:not(:placeholder-shown) + label {
+    transform: translate(-20px, -2rem) scale(0.9); 
+} 
+
+.rememberbox{
+    width: 18px;
+    height: 18px;
+    margin-right: 0.8rem;
+}
 
 
 
@@ -477,6 +513,12 @@ input.largerCheckbox {
     border-right: 0;
     border-left: 0;
 }
+
+a.forgot {
+    color: rgb(74, 74, 253);
+}
+
+
 
 }
 
