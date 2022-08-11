@@ -379,13 +379,61 @@ body {
 @media screen and (min-width:990px){
 .topsign__login {
     display: block;
-    border: 3px solid blue;
+    border: 1px solid lightgray;
     width: 280px;
     max-width: 280px;
     min-width: 280;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 5px;
     background: white;
+}
+
+.topsign__login > h2 {
+    font-weight: normal;
+    opacity: 0.8;
+    margin: 0.5rem 1rem 0rem 1rem;
+}
+.topsign__login > h3 {
+    font-weight: normal;
+    opacity: 0.6;
+    font-size: 1.4rem;
+    margin-left: 7%;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 0;
+    
 
 }
+.topsign__login > input {
+    font-weight: normal;
+    width: 90%;
+    border-radius: 0;
+    border-bottom: 1px solid lightgray;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    margin: 0 5%;
+    padding: 0.5rem 1rem;
+    outline: none;
+}
+.topsign__login > input:focus {
+    border-bottom: 3px solid #163764;
+}
+.topsign__login > button {
+    font-weight: normal;
+    display: block;
+    padding: 1rem;
+    margin: 5px 5%;
+    width: 90%;
+}
+
+
+
+.topsign__login > p {
+    font-weight: normal;
+}
+
+
+
 }
