@@ -389,6 +389,7 @@ body {
 }
 
 .topsign__login > h2 {
+    font-size: 1.6;
     font-weight: normal;
     opacity: 0.8;
     margin: 0.5rem 1rem 0rem 1rem;
@@ -402,8 +403,9 @@ body {
     margin-bottom: 0;
     margin-right: 0;
     padding: 0;
-    
-
+}
+.topsign__login > h3:focus {
+    transform: translate(20px, 20px) scale(2);
 }
 .topsign__login > input {
     font-weight: normal;
@@ -421,19 +423,61 @@ body {
     border-bottom: 3px solid #163764;
 }
 .topsign__login > button {
-    font-weight: normal;
+    font-weight: 700;
     display: block;
     padding: 1rem;
     margin: 5px 5%;
     width: 90%;
 }
 
-
-
-.topsign__login > p {
+.topsign__login > a {
     font-weight: normal;
+    color: #163764;
+    display: block;
+    margin-left: 4%;
+    font-size: 1.2rem;
+    padding: 0.4rem 0;
+    
+}
+
+.rememberme {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1rem;
+    opacity: 0.8;
+}
+
+input.largerCheckbox {
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+}
+
+.topsign__login form {
+    display: relative;
+}
+
+.topsign__login1 {
+    display: absolute;
+    top:50px
 }
 
 
 
+
+.user {
+    outline: none;
+    margin: 5px 5% 5px 5%;
+    padding: 0.5rem 0;
+    width: 90%;
+    border-radius: 0;
+    border-top: 0;
+    border-bottom: 2px solid lightgrey;
+    border-right: 0;
+    border-left: 0;
 }
+
+}
+
+

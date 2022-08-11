@@ -36,13 +36,26 @@
         </div>
         <div class="topsign__login">
           <h2>Welcome Back</h2>
-          <h3>Username</h3>
-          <input type="text" />
-          <h3>Password</h3>
-          <input type="text" />
+          <form action="">
+            <label class="topsign__login1" for="username">Username</label>
+            <input class="user" id="username" type="text" />
+            <label class="topsign__login1" for="password">Password</label>
+            <input class="user" id="password" type="text" />
+          </form>
+          <div class="rememberme">
+            <form action="">
+              <input
+                class="largerCheckbox"
+                type="checkbox"
+                name=""
+                id="remember"
+              />
+              <label for="remember"> Remember me</label>
+            </form>
+          </div>
           <button class="btn btn--blue btn--stretch">Sign in</button>
-          <p>Forgot username/password? ></p>
-          <p>Not enrolled? Sign up now. ></p>
+          <a href="#">Forgot username/password? </a>
+          <a href="#">Not enrolled? Sign up now. </a>
         </div>
       </div>
     </div>
