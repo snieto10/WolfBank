@@ -216,6 +216,10 @@ body {
     color: black;
 }
 
+.btn__special:visited {
+    color: black;
+}
+
 .btn:visited {
     color: white;
 }
@@ -230,16 +234,15 @@ body {
 /*Top Sign*/
 
 .topsign {
-    border: 3px solid red;
     background-image: url(../images/white-background.jpg) ;
     background-size: cover;
     height: 210px;
     position: relative;
 }
 
+
+
 .topsign__container {
-    border: 3px solid green ;
-    height: 200px;
     max-width: 1400px;
     margin: 0px auto;
     display: flex;
@@ -247,26 +250,30 @@ body {
     justify-items: center;
 }
 
+
+
 .topsign__holder {
-    border: 3px solid black;
+    margin-top: 0;
     display: flex;
     margin-left: 10%;
+    width: 90%;
 }
 
 .topsign__imagebox {
-    border: 3px solid yellow;
     width: 120px;
+    min-width: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .topsign__message {
-    border: 3px solid purple;
+
     display: flex;
     flex-direction: column;
     width: 140px;
     margin-left: 5px;
+    min-width: 140px;
 }
 
 .topsign__image {
@@ -298,6 +305,12 @@ body {
 
 
 @media screen and (min-width:480px){
+    .topsign__holder {
+        margin-top: 5%;
+        display: flex;
+        margin-left: 10%;
+        width: 90%;
+    }
     .topsign__imagebox {
         width: 180px;
     }
@@ -307,11 +320,10 @@ body {
         position: relative;
     }
     .topsign__container {
-        margin-top: 30px;
+
     }
 
     .topsign__message {
-        border: 3px solid purple;
         display: flex;
         flex-direction: column;
         width: 200px;
@@ -334,23 +346,24 @@ body {
     .topsign__title {
         margin-top: 7px;
     }
+
 }
 @media screen and (min-width:768px){
     
     .topsign__imagebox {
         width: 220px;
+        align-items: flex-start;
     }
     .topsign {
         height: 320px;
         position: relative;
     }
     .topsign__container {
-        margin-top: 30px;
         height: 240px;
     }
 
     .topsign__message {
-        border: 3px solid purple;
+       
         display: flex;
         flex-direction: column;
         width: 200px;
@@ -382,10 +395,13 @@ body {
     border: 1px solid lightgray;
     width: 280px;
     max-width: 280px;
-    min-width: 280;
-    margin: 0 auto;
+    min-width: 280PX;
+    height: 280px;
     border-radius: 5px;
     background: white;
+    margin-right: 10%;
+    margin-left: auto;
+   
 }
 
 .topsign__login > h2 {
@@ -517,6 +533,29 @@ input.log:focus + label, input.log:not(:placeholder-shown) + label {
 a.forgot {
     color: rgb(74, 74, 253);
 }
+
+.topsign {
+   
+    background-image: url(../images/white-background.jpg) ;
+    background-size: cover;
+    height: 380px;
+    position: relative;
+}
+
+.topsign__imagebox {
+    
+    width: 250px;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.topsign__message {
+    width: 350px;
+    min-width: 350px;
+}
+
 
 
 

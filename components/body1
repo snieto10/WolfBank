@@ -1,0 +1,50 @@
+<div class="topsign">
+  <div class="topsign__container">
+    <div class="topsign__holder">
+      <div class="topsign__imagebox">
+        <img class="topsign__image" src="images/cards.png" alt="" />
+      </div>
+      <div class="topsign__message">
+        <div class="topsign__title">
+          <h2>We have the right card for you</h2>
+        </div>
+        <div class="topsign__text">
+          <p>
+            Cash back, savings on interest, or travel rewards -- we have the
+            right card to fit your needs.
+          </p>
+          <a href="#" class="btn btn--blue btn--small">Continue</a>
+        </div>
+      </div>
+
+      <div class="topsign__login">
+        <h2>Welcome Back</h2>
+        <form class="log" action="">
+          <input class="log" type="text" id="text" placeholder=" " /><label
+            class="log"
+            for="text"
+            >Username</label
+          >
+          <input
+            class="log log1"
+            type="password"
+            id="password"
+            placeholder=" "
+          /><label class="log" for="password">Password</label>
+        </form>
+        <form class="rememberme" action="">
+          <input
+            class="rememberbox"
+            type="checkbox"
+            name=""
+            id="remember"
+          /><label for="remember" class="remembertext">Remember me</label>
+        </form>
+
+        <button class="btn btn--blue btn--stretch">Sign in</button>
+        <a class="forgot" href="#">Forgot username/password? </a>
+        <a class="forgot" href="#">Not enrolled? Sign up now. </a>
+      </div>
+    </div>
+  </div>
+</div>
