@@ -320,9 +320,7 @@ body {
         height: 280px;
         position: relative;
     }
-    .topsign__container {
-
-    }
+  
 
     .topsign__message {
         display: flex;
@@ -503,7 +501,7 @@ input.log:focus {
 label.log {
     position: absolute;
     left: 25px;
-    color: black;
+    color: gray;
     transition: transform 0.2s ease-in-out;
 }
 
