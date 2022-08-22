@@ -209,6 +209,10 @@ body {
 
 /* Links */
 
+.btn:hover {
+    background-color: rgb(3, 3, 193);
+}
+
  a:visited {
     color: black;
 }
@@ -616,6 +620,92 @@ a.forgot {
 
 }
 
+/*HERO*/
+
+.hero {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin: 0 1rem;
+    padding-bottom: 3rem;
+}
+
+.hero__picture {
+    display: inline-block;
+    width: 41%;
+}
+
+.hero__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+   
+}
+.hero__content2 {
+    display: inline-block;
+    width: 50%;
+}
+
+.hero__image {
+    width: 100%;
+}
+
+.hero__text {
+    display: inline-block;
+    margin: 0 0.5rem auto 0.5rem;   
+}
+
+.hero__btn {
+    font-size: 1.6rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    text-align: center;
+    background-color: green;
+    padding: 1rem;
+    width: 80%;
+    margin-left: 0.5rem;
+    color: white;
+}
+
+.hero__text > p {
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+a.hero__btn {
+    color: white;
+    font-weight: bold;
+}
+a.hero__btn:hover{
+    background-color: rgb(2, 171, 2);
+}
+
+img.hero__image {
+    margin-top: 2rem;
+}
+
+img.diff {
+    width: 90%;
+}
+
+.heroB {
+    display: none;
+}
+
+@media screen and (min-width:700px){
+    .heroA {
+        display: none;
+    }
+    .heroB {
+        display: block;
+    }
+    .hero__btn {
+        width: 50%;
+    }
+
+}
 
 
 
