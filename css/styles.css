@@ -241,7 +241,7 @@ body {
 .topsign {
     background-image: url(../images/white-background.jpg) ;
     background-size: cover;
-    height: 210px;
+    height: 250px;
     position: relative;
 }
 
@@ -285,6 +285,8 @@ body {
     width: 100%;
 }
 
+
+
 .topsign__title {
     font-size: 1rem;
     margin-top: 22px;
@@ -306,6 +308,10 @@ body {
 
 .topsign__login{
     display: none;
+}
+
+.toph2 {
+    font-size: 2rem;
 }
 
 
@@ -350,6 +356,10 @@ body {
         margin-top: 7px;
     }
 
+    .toph2 {
+        font-size: 3rem;
+    }
+
 }
 @media screen and (min-width:768px){
     
@@ -389,6 +399,8 @@ body {
     .topsign__title {
         margin-top: 7px;
     }
+
+    
 
 }
 
@@ -541,7 +553,7 @@ a.forgot {
    
     background-image: url(../images/white-background.jpg) ;
     background-size: cover;
-    height: 380px;
+    height: 370px;
     position: relative;
 }
 
@@ -557,6 +569,10 @@ a.forgot {
 .topsign__message {
     width: 350px;
     min-width: 350px;
+}
+
+.toph2 {
+    font-size: 3rem;
 }
 }
 
