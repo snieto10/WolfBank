@@ -723,6 +723,63 @@ img.diff {
 
 }
 
+/* Inputs */
+.input {
+    padding: 1.5rem 3.5rem;
+    border: none;
+    border-radius: 30px;
+    outline: 0;
+    color: black;
+    font-size: 2rem;
+    width: 100%;
+}
+
+::placeholder {
+    color: #cdcbd7;
+}
+
+.btn-input {
+    background-color: #163764;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1rem 4rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px;
+}
+
+.input-group {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 3rem auto;
+    box-shadow: 0 0 10px #ccc;
+    max-width: 600px;
+}
+
+h2.searchbar {
+    color: #163764;
+    text-align: center;
+}
+
+@media screen and (min-width:500px){
+   .input-group {
+    width: 80%;
+   }
+}
+@media screen and (min-width:700px){
+   .input-group {
+    width: 60%;
+   }
+}
+
 
 
 
