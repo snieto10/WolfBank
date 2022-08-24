@@ -897,6 +897,7 @@ h2.searchbar2 {
     margin-left: 2rem;
     line-height: 1.5;
     padding-top: 0;
+    font-weight: 100;
  }
 
 .collapsible__expanded .chevron {
@@ -918,6 +919,22 @@ h2.searchbar2 {
     margin: 1rem;
     list-style: none;
 
+}
+
+.footer__image {
+    width: 100px;
+}
+
+.footer__image__box {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+@media screen and (min-width:700px) {
+    .container__collapsible {
+        display: none;
+    }
 }
 
 
