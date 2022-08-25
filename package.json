@@ -1,0 +1,23 @@
+{
+  "name": "wolfbank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snieto10/WolfBank.git"
+  },
+  "keywords": [],
+  "author": "Brad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snieto10/WolfBank/issues"
+  },
+  "homepage": "https://github.com/snieto10/WolfBank#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
