@@ -33,8 +33,6 @@
 // const userLeft = false;
 // const userWatchingCatMeme = false;
 
-// console.log("sergio1");
-
 // function watchTutorialCallback(callback, errorCallback) {
 //   if (userLeft) {
 //     errorCallback({
@@ -50,7 +48,6 @@
 //     callback("Thumbs up and Subscribe");
 //   }
 // }
-// console.log("sergio2");
 
 // watchTutorialCallback(
 //   (message) => {
@@ -60,8 +57,6 @@
 //     console.log(error.name + " " + error.message);
 //   }
 // );
-
-// console.log("sergio3");
 
 /*  OTHER EXERCISE*/
 
@@ -96,19 +91,57 @@ const toNumber = (n) => Number(n);
 const multiply = (n) => n * 2;
 const print = (n) => console.log(n);
 
-const req = new XMLHttpRequest();
-req.open("GET", "./numero.txt");
+const thenFn = (n) => {
+  let number = toNumber(n);
+  number = multiply(number);
+  print(number);
+};
 
-req.onload = () => {
-  if (req.status === 200) {
-    console.log(req.responseText);
+const thenAlt = (n) => console.log(n);
+
+const catchAndPrint = (err) => console.log(err);
+
+const request = (url, then, catchFn) => {
+  const req = new XMLHttpRequest();
+  req.open("GET", url);
+
+  req.onload = () => {
+    if (req.status === 200) {
+      then(req.responseText);
+    } else {
+      catchFn(new Error("Error al cargar"));
+    }
+  };
+
+  req.onerror = () => {
+    catchFn(new Error("Error de red"));
+  };
+
+  req.send();
+};
+
+request("./numero.txt", thenAlt, catchAndPrint);
+
+/*OTHER EXERCISE*/
+
+let playTennis = false;
+let playSports = false;
+
+function sportLife(fn1, fn2) {
+  if (playTennis) {
+    fn1("Perfect, tennis is the best sport");
+  } else if (playSports) {
+    fn1("She can play tennis, soccer or basketball");
   } else {
-    console.log("Error");
+    fn2("Great, she can be a full time student");
   }
-};
+}
 
-req.onerror = () => {
-  console.log("Error");
-};
-
-req.send();
+sportLife(
+  (s) => {
+    console.log(s);
+  },
+  (error) => {
+    console.log(error);
+  }
+);
